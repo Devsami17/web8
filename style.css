@@ -1,0 +1,238 @@
+.header-1 .container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (min-width:600px) and (max-width:990px)
+{
+    .sec-2-boxes{
+        width: 47% !important   ;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:770px)
+{
+    .sec-2-boxes{
+        width: 100% !important   ;
+    }
+    .card{
+        width: 47% !important;
+    }
+}
+body{
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.header-1{
+display: flex;
+    height: 80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+button{
+    height: 42px;
+    border-radius: 40px;
+   padding: 0px 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: #CAFF50;
+    color: #000;
+}
+.header-1 a{
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.section-1{
+    padding-bottom: 0px;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://templatekit.jegtheme.com/equity/wp-content/uploads/sites/410/2023/09/bg-circle.png'),linear-gradient(180deg, #4BC3CC 0%, #1796A0 100%);
+}
+.section-1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.section-1 p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.sec-1-2{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (min-width:300px) and (max-width:1000px)
+{
+    .header-1{
+        display: none;
+    }
+    .header-2{
+        height: 70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+display: flex !important;
+justify-content: space-between;
+padding: 0px 10px;
+align-items: center;
+
+background-color: #fff;
+    }
+    .header-2 i{
+        color: #000;
+        font-size: 40px;
+    }
+}
+.header-2{
+    display: none;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+section{
+    padding: 40px 0px;
+}
+p{
+    font-size: 16px;
+    color: #666;
+}
+.section-2 button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-2{
+    background-color: #f7f6f6;
+}
+.sec-2-boxes{
+    background-color: #fff;
+    width: 30%;
+    padding: 40px 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h5{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.sec-2-boxes button{
+ 
+  position: unset;
+  left: 0;transform: translateX(0px);
+}
+.sec-2-boxes i{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #4BC3CC;
+}
+@media only screen and (min-width:300px) and (max-width:550px)
+{
+ 
+    h1{
+        font-size: 40px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .sec-2-boxes{
+        width: 100%;
+    }
+    .section-6 input{
+        width: 100% !important;
+    }
+    .section-6 select{
+        width: 100% !important;
+    }
+    label{
+        font-size: 14px;
+    }
+    input{
+        font-size: 14px;
+    }
+    select{
+        font-size: 12px !important;
+    }
+    .f-2{
+        margin-top: 20px;
+    }
+    .card{
+        width: 100% !important;
+    }
+}
+.section-3 .sec-2-boxes{
+    background-color: #F9F9F9 !important;
+    border-left: 5px solid #fff;
+}
+.section-4{
+    background-color: #f7f6f6;
+}
+.card-body a{
+    background-color: #CAFF50;
+    color: #000;
+    border: none;
+}
+.card-body{
+    padding: 5px 10px;
+}
+.card{
+    margin-bottom: 10px;
+}
+footer{
+background: linear-gradient(180deg, #4BC3CC 0%, #1796A0 100%);
+padding: 20px  0px;
+}
+footer h2{
+color: #fff;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 27px;
+    }
+    .card{
+        width: 32%;
+    }
+    .offcanvas-body li{
+        list-style: none;
+       
+        padding: 12px;
+        cursor: pointer;
+        border-bottom: thin solid #ccccd2;
+        font-size: 14px;
+        color: rgb(46, 46, 50);
+        position: relative;
+    }
+    .offcanvas-body li::after{
+        background-repeat: no-repeat;
+        content: "";
+        display: inline-block;
+        height: 1rem;
+        position: absolute;
+        width: 1rem;
+        bottom: .0625rem;
+        background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%236e6e6e%22%20data-name%3D%22Outline%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20d%3D%22M6.36%2015.47L11.83%2010%206.36%204.53l1.06-1.06%206%206a.75.75%200%200%201%200%201.06l-6%206z%22%2F%3E%3C%2Fsvg%3E');
+        block-size: 1.25rem;
+        display: inline-block;
+        inline-size: 1.25rem;
+        inset: 50% 1rem auto auto;
+        position: absolute;
+        transform: translateY(-50%);
+        visibility: visible;
+    }
+    .offcanvas-body ul{
+        padding: 0px;
+    }
+    .offcanvas-body button{
+        width: 100%;
+        margin-top: 20px;
+    }
